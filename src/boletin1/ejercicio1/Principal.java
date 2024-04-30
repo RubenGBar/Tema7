@@ -12,7 +12,7 @@ public class Principal {
 		Random rand = new Random();
 		
 		for(int i = 0; i < 10; i++) {
-			lista1.add(rand.nextInt(0, 11));
+			lista1.add(rand.nextInt(1, 11));
 		}
 		
 		System.out.println("Lista Original:\n" + lista1);
