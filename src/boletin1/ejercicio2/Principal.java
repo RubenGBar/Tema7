@@ -11,7 +11,7 @@ public class Principal {
 		Random rand = new Random();
 		
 		while(set1.size() < 10) {
-			set1.add(rand.nextInt(0, 21));
+			set1.add(rand.nextInt(1, 21));
 		}
 		
 		System.out.println("Conjunto Único:\n" + set1);
